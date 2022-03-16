@@ -1,6 +1,5 @@
 <p align="center">
-  <img src="<div class="tenor-gif-embed" data-postid="20593476" data-share-method="host" data-aspect-ratio="1.15108" data-width="100%"><a href="https://tenor.com/view/dog-spinning-gif-20593476">Dog Spinning GIF</a>from <a href="https://tenor.com/search/dog+spinning-gifs">Dog Spinning GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>" alt="animated" />
-</p>
+  <img src="https://images.app.goo.gl/Us36zAXb1Wbf9eLA6"
 
 <p align="center">
 <strong>Deepak Bot V3</strong>
