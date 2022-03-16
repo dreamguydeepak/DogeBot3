@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://media.tenor.com/images/55708181ec0e8ffa9b63f71a6b2ac2bd/tenor.gif" alt="animated" />
+  <img src="<div class="tenor-gif-embed" data-postid="20593476" data-share-method="host" data-aspect-ratio="1.15108" data-width="100%"><a href="https://tenor.com/view/dog-spinning-gif-20593476">Dog Spinning GIF</a>from <a href="https://tenor.com/search/dog+spinning-gifs">Dog Spinning GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>" alt="animated" />
 </p>
 
 <p align="center">
