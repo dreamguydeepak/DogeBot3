@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://images.app.goo.gl/Us36zAXb1Wbf9eLA6"
+  <img src="https://i.imgur.com/4tRKOcz.png"
 
 <p align="center">
 <strong>Deepak Bot V3</strong>
