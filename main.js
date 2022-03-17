@@ -1,6 +1,6 @@
 //pls give credit if you reupload 
 //or copy the codes
-//© 2022 Xeon Bot Inc. Doge Bot
+//© 2022 Deepak Bot Inc. Doge Bot
 const {
     WAConnection,
     MessageType,
@@ -118,7 +118,7 @@ DogeXeonOP.on("group-participants-update", async (anu) => {
       time_welc = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
       time_wel = moment.tz('Asia/Kolkata').format("hh:mm")
       memeg = mdata.participants.length
-      out = `   ⃟🐶⃟    𝙂𝙤𝙤𝙙𝙗𝙮𝙚 _*@${num.split('@')[0]}*_\n   ⃟🐶⃟    𝙃𝙤𝙥𝙚𝙛𝙪𝙡𝙡𝙮 𝙏𝙝𝙚𝙧𝙚 𝙒𝙤𝙣'𝙩 𝘽𝙚 𝘽𝙪𝙧𝙙𝙚𝙣 𝙃𝙚𝙧𝙚 𝘼𝙣𝙮𝙢𝙤𝙧𝙚 In THIS GROUP`
+      out = `   ⃟🐶⃟    𝙂𝙤𝙤𝙙𝙗𝙮𝙚 _*@${num.split('@')[0]}*_\n   ⃟🐶⃟    Nikal bhe lavde`
       goodbyeBut = [{buttonId:`#gbye`,buttonText:{displayText:'BYE 👋'},type:1}, {buttonId:`#menu`,buttonText:{displayText:'MENU 🗂️'}, type:1}]
       goodbyeButt = { contentText: `${out}`, footerText: `Deepak 𝘽𝙤𝙩`, buttons: goodbyeBut, headerType: 6, locationMessage: bosco3.message.locationMessage}
       DogeXeonOP.sendMessage(mdata.id, goodbyeButt, MessageType.buttonsMessage, { caption: 'buffer', "contextInfo": { "mentionedJid" : [num], },})
