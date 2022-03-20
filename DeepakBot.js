@@ -2,8 +2,8 @@
 //If you want to recode, reupload
 //or copy the codes,
 //pls give credit
-//© 2022 Deepak Bot Inc. Doge Bot 
-//Thank you to Lord Shiva, Family and Myself
+//© 2022 Xeon Bot Inc. Doge Bot 
+//Thank you to Lord Buddha, Family and Myself
 //═══════════════════════════════════════════════════════//
 const
 	{
@@ -80,8 +80,8 @@ const thumb = fs.readFileSync ('./media/dogetb.jpg')
 
 //══════════[ Developer Number ]══════════//
 
-developerNo= '918348225320'
-developerName= '🦄Dream Guy Deepak'
+developerNo = '916909137213'
+developerName= '🦄Dream Guy Xeon'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -163,8 +163,8 @@ module.exports = DogeXeonOP = async (DogeXeonOP, mek, _welkom) => {
 		const isCmd = body.startsWith(prefix)
 		const q = args.join(' ')
 		const txt = mek.message.conversation
-		const botNumber = Deepak.user.jid
-		const ownerNumber = [`${owner}@s.whatsapp.net`, `918348225320@s.whatsapp.net`]
+		const botNumber = DogeXeonOP.user.jid
+		const ownerNumber = [`${owner}@s.whatsapp.net`, `916909137213@s.whatsapp.net`]
 		const isGroup = from.endsWith('@g.us')
 		let sender = isGroup ? mek.participant : mek.key.remoteJid
 		let senderr = mek.key.fromMe ? DogeXeonOP.user.jid : mek.key.remoteJid.endsWith('@g.us') ? mek.participant : mek.key.remoteJid
@@ -177,7 +177,7 @@ module.exports = DogeXeonOP = async (DogeXeonOP, mek, _welkom) => {
 		const groupAdmins = isGroup ? getGroupAdmins(groupMembers) : ''
 		const isBotGroupAdmins = groupAdmins.includes(botNumber) || false
 		const isGroupAdmins = groupAdmins.includes(sender) || false
-        m = simple.smsg(Deepak, mek)
+        m = simple.smsg(DogeXeonOP, mek)
         var pes = (type === 'conversation' && mek.message.conversation) ? mek.message.conversation : (type == 'imageMessage') && mek.message.imageMessage.caption ? mek.message.imageMessage.caption : (type == 'videoMessage') && mek.message.videoMessage.caption ? mek.message.videoMessage.caption : (type == 'extendedTextMessage') && mek.message.extendedTextMessage.text ? mek.message.extendedTextMessage.text : ''
         const messagesD = pes.slice(0).trim().split(/ +/).shift().toLowerCase()
 		const conts = mek.key.fromMe ? DogeXeonOP.user.jid : DogeXeonOP.contacts[sender] || { notify: jid.replace(/@.+/, '') }
@@ -189,7 +189,7 @@ module.exports = DogeXeonOP = async (DogeXeonOP, mek, _welkom) => {
 		const isNsfw = isGroup ? _nsfw.includes(from) : false
 		const isOwner = ownerNumber.includes(sender)
 		const isMybot = isOwner || mek.key.fromMe
-		let bio_nya = await Deepak.getStatus(sender)
+		let bio_nya = await DogeXeonOP.getStatus(sender)
 		try {
 			bio_user = `${bio_nya.status}`
 		} catch {
@@ -519,7 +519,7 @@ for (let anji of setik){
 │
 ╰───「 *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳* 」`)
 		  but = [{ buttonId: `!menu`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 }]
-          sendButton(from, lvlup, '*Deepak Bot*', but)
+          sendButton(from, lvlup, '*Doge Bot*', but)
 
                 }
             } catch (err) {
@@ -537,7 +537,7 @@ if (isGroupAdmins) return
 var kic = `${sender.split("@")[0]}@s.whatsapp.net`
 reply(` *「 GROUP LINK DETECTED 」*\nYou sent the group chat link, sorry you will be kicked from the group`)
 setTimeout(() => {
-Deepak.groupRemove(from, [kic]).catch((e) => { reply(`BOTS MUST BE ADMIN`) })
+DogeXeonOP.groupRemove(from, [kic]).catch((e) => { reply(`BOTS MUST BE ADMIN`) })
 }, 0)
 }
 
@@ -548,13 +548,13 @@ if (isGroupAdmins) return
 reply('Mark as read\n'.repeat(300))
 reply(`「 *VIRUS DETECTED* 」\n\nYou sent a virtex, sorry you will be kicked from the group`)
 console.log(color('[KICK]', 'red'), color('Received a text virus!', 'yellow'))
-Deepak.groupRemove(from, [sender])
+DogeXeonOP.groupRemove(from, [sender])
 }     
 
 //══════════[ Dll ]══════════//
 
 if (autoread){
-Deepak.chatRead(from, "read")
+DogeXeonOP.chatRead(from, "read")
 } else if (autoketik) {
 DogeXeonOP.updatePresence(from, Presence.composing)
 } else if (autovn) {
@@ -581,7 +581,7 @@ case 'help':
 
 timestampe = speed();
 latensie = speed() - timestampe
-const { wa_version, os_version } = Deepak.user.phone
+const { wa_version, os_version } = DogeXeonOP.user.phone
 pemilik = `${owner}@s.whatsapp.net`
 menu =
 `*_${ucapanWaktu} @${senderr.split('@')[0]}_*
@@ -1384,7 +1384,7 @@ ${gaya2} ${prefix}ytsearch _Query_
 ${gaya2} ${prefix}pinterest _Query_
 ${gaya2} ${prefix}googleimg _Query_
 ${gaya2} ${prefix}google _Query_`
-Deepak.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'apkmenu':
 
@@ -1399,7 +1399,7 @@ ${gaya2} ${prefix}toraccino _Apk Name_
 ${gaya2} ${prefix}uapkpro _Apk Name_
 ${gaya2} ${prefix}apkmody _Apk Name_
 ${gaya2} ${prefix}apkshub _Apk Name_`
-Deepak.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'othermenu':
 
@@ -1414,7 +1414,7 @@ ${gaya2} ${prefix}owner
 ${gaya2} ${prefix}developer
 ${gaya2} ${prefix}script
 ${gaya2} ${prefix}delete _Reply to bot messages_`
-Deepak.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'ownermenu':
 
@@ -1445,7 +1445,7 @@ ${gaya2} ${prefix}clearall
 ${gaya2} ${prefix}leaveall
 ${gaya2} ${prefix}public
 ${gaya2} ${prefix}self`
-Deepak.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'abcde':
 
@@ -1492,7 +1492,7 @@ break
 //══════════[ DOWNLOAD FEATURES ]══════════//
 /*Help case ?
 give credit too / add in at tqtq
---> Deepak*/
+--> Xeon*/
 
       case 'mediafire':
         if (args.length < 1) return reply('Where is the link? ')
@@ -1763,7 +1763,7 @@ break
 //══════════[ INTAKE FEATURES ]══════════//
 /*Help case ?
 just give credit / add in tqtq
---> Deepak*/
+--> Xeon*/
 
 case 'asupan':
 case 'asupanloli':
@@ -1843,7 +1843,7 @@ break
 //══════════[ RANDOM TEXT ]══════════//
 /*Help case ?
 just give credit / add in tqtq
---> Deepak*/
+--> Xeon*/
 
 case 'pantun2':
 case 'puisi':
@@ -1904,7 +1904,7 @@ break;
 //══════════[ RANDOM IMAGE FEATURES ]══════════//
 /*Help case ?
 just give credit / add in tqtq
---> Deepak*/
+--> Xeon*/
 
                 case 'bts':
                 case 'exo':
@@ -2868,7 +2868,7 @@ case 'script':
 case 'sourcode':
 
 scpic = fs.readFileSync('./media/scpic.jpg')
-scsell = `*🐶Deepak 𝗕𝗼𝘁 𝗩𝟯 𝗦𝗰𝗿𝗶𝗽𝘁🐶*\n\n_• 𝒀𝒐𝒖𝑻𝒖𝒃𝒆: https://youtube.com/channel/UCmI5wn_THTntx58EookLwUw\n_• 𝑮𝒊𝒕𝑯𝒖𝒃: https://github.com/dreamguydeepak/DogeBot3_\n\n_𝙄𝙛 𝙮𝙤𝙪 𝙬𝙞𝙨𝙝 𝙩𝙤 𝙗𝙪𝙮 𝙪𝙣𝙚𝙣𝙘𝙧𝙮𝙥𝙩𝙚𝙙 𝙨𝙘𝙧𝙞𝙥𝙩 𝙘𝙡𝙞𝙘𝙠 𝙤𝙣 𝙩𝙝𝙚 𝙗𝙪𝙮 𝙨𝙘𝙧𝙞𝙥𝙩 𝙗𝙪𝙩𝙩𝙤𝙣 𝙗𝙚𝙡𝙤𝙬._`
+scsell = `*🐶𝗗𝗼𝗴𝗲 𝗕𝗼𝘁 𝗩𝟯 𝗦𝗰𝗿𝗶𝗽𝘁🐶*\n\n_• 𝒀𝒐𝒖𝑻𝒖𝒃𝒆: https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A_\n_• 𝑮𝒊𝒕𝑯𝒖𝒃: https://github.com/DGXeon/DogeBot3_\n\n_𝙄𝙛 𝙮𝙤𝙪 𝙬𝙞𝙨𝙝 𝙩𝙤 𝙗𝙪𝙮 𝙪𝙣𝙚𝙣𝙘𝙧𝙮𝙥𝙩𝙚𝙙 𝙨𝙘𝙧𝙞𝙥𝙩 𝙘𝙡𝙞𝙘𝙠 𝙤𝙣 𝙩𝙝𝙚 𝙗𝙪𝙮 𝙨𝙘𝙧𝙞𝙥𝙩 𝙗𝙪𝙩𝙩𝙤𝙣 𝙗𝙚𝙡𝙤𝙬._`
 but = [
 { buttonId: `${prefix}rentbot`, buttonText: { displayText: 'BUY SCRIPT 💵' }, type: 1 },
 { buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 }
