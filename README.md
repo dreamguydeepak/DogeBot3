@@ -20,7 +20,7 @@
 # Setup For Deployment 👇
 
 ## `Required WhatsApps`
-[`1st Install`] (https://drive.google.com/file/d/13QSH9jnbGjjTuK8fUJGams97eQYmJGTf/view?usp=drivesdk)
+[`1st Install`](https://www.mediafire.com/file/zg2doytrjysg284/%25F0%259F%25A6%2584DEEPAKWA_V2_2.21.20.23.apk/file)
 
 ## `Scan QR Code For Session`
 [![Doge Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@DGXeon/Doge-Bot-Qr-Code-Generator?v=1)
