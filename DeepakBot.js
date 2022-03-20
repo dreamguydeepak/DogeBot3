@@ -2,8 +2,8 @@
 //If you want to recode, reupload
 //or copy the codes,
 //pls give credit
-//© 2022 Xeon Bot Inc. Doge Bot 
-//Thank you to Lord Buddha, Family and Myself
+//© 2022 Deepak Bot Inc. Doge Bot 
+//Thank you to Lord Shiva, Family and Myself
 //═══════════════════════════════════════════════════════//
 const
 	{
@@ -80,8 +80,8 @@ const thumb = fs.readFileSync ('./media/dogetb.jpg')
 
 //══════════[ Developer Number ]══════════//
 
-developerNo = '916909137213'
-developerName= '🦄Dream Guy Xeon'
+developerNo = '918348225320'
+developerName= '🦄Dream Guy Deepak'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
