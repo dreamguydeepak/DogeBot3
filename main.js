@@ -32,17 +32,17 @@ const starts = async (DogeXeonOP = new WAConnection()) => {
 		width: 80,
 		whitespaceBreak: false
 	}), 'cyan'))
-	console.log(color('\n> YT CHANNEL: Xeon ','silver'))
+	console.log(color('\n> YT CHANNEL: Deepak Gupta ','silver'))
 console.log(color('> GITHUB: DGXeon ','silver'))
 console.log(color('> WA NUMBER: +918348225320 ','silver'))
-console.log(color('  Xeon Bot Inc. 2022','mediumseagreen'))
+console.log(color('  Deepak Bot Inc. 2022','mediumseagreen'))
     console.log(color('<>','red'), color('I Wrote This Script By Myself!\nNote, The Script Is Encrypted, So You Wont Be Able To Recode, If You Wish To Buy Decrypted Script Contact The Developer', 'yellow'))
     console.log(color('<>','red'), color('Source Code Version: 3.0', 'aqua'))
     console.log(color('<>','red'), color('But? Error? Suggestion? Visit Here:', 'aqua'), color('https://wa.me/918348225320'))
     console.log(color('[DOGE BOT]'), color('Doge Bot Is Online', 'aqua'))
     console.log(color('[DEV]', 'cyan'), color('Welcome Back Owner! Hope You Doing Well~', 'magenta'))
-    console.log(color('<>','red'), color('Thanks For Using Doge Bot', 'white'))
-	DogeXeonOP.browserDescription = [ 'Subscribe Xeon', 'chrome', '3.0' ]
+    console.log(color('<>','red'), color('Thanks For Using Deepak Bot', 'white'))
+	DogeXeonOP.browserDescription = [ 'Subscribe Deepak', 'chrome', '3.0' ]
     DogeXeonOP.on('qr', () => {
         console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scan the qr code in only 20 seconds !!'))
     })
@@ -105,7 +105,7 @@ DogeXeonOP.on("group-participants-update", async (anu) => {
       time_wel = moment.tz('Asia/Kolkata').format("hh:mm")
       teks = `   ⃟🐶⃟    𝙃𝙞 _*@${num.split('@')[0]}*_ \n   ⃟🐶⃟    𝘽𝙞𝙤 : _*${thu.status}*_ \n   ⃟🐶⃟    𝙈𝙚𝙢𝙗𝙚𝙧 : _*${memeg}*_ \n   ⃟🐶⃟    𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙏𝙤 _*${mdata.subject}*_\n   ⃟🐶⃟    𝘿𝙤𝙣𝙩 𝙁𝙤𝙧𝙜𝙚𝙩 𝙏𝙤 𝙍𝙚𝙖𝙙 𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣`
       welcomeBut = [{buttonId:`#menu`,buttonText:{displayText:'MENU 🗂️'},type:1}, {buttonId:`#getdesc`,buttonText:{displayText:'READ DESC 📋'},type:1}]
-      welcomeButt = { contentText: `${teks}`, footerText: `𝘿𝙤𝙜𝙚 𝘽𝙤𝙩`, buttons: welcomeBut, headerType: 6, locationMessage: bosco2.message.locationMessage}
+      welcomeButt = { contentText: `${teks}`, footerText: `𝘿eepak 𝘽𝙤𝙩`, buttons: welcomeBut, headerType: 6, locationMessage: bosco2.message.locationMessage}
       DogeXeonOP.sendMessage(mdata.id, welcomeButt, MessageType.buttonsMessage, { caption: 'buffer', "contextInfo": { "mentionedJid" : [num], },})
       }
       if (anu.action == 'remove' && !mem.includes(DogeXeonOP.user.jid)) {
