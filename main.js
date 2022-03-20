@@ -33,7 +33,7 @@ const starts = async (DogeXeonOP = new WAConnection()) => {
 		whitespaceBreak: false
 	}), 'cyan'))
 	console.log(color('\n> YT CHANNEL: Deepak Gupta ','silver'))
-console.log(color('> GITHUB: DGXeon ','silver'))
+console.log(color('> GITHUB: dreamguydeepak ','silver'))
 console.log(color('> WA NUMBER: +918348225320 ','silver'))
 console.log(color('  Deepak Bot Inc. 2022','mediumseagreen'))
     console.log(color('<>','red'), color('I Wrote This Script By Myself!\nNote, The Script Is Encrypted, So You Wont Be Able To Recode, If You Wish To Buy Decrypted Script Contact The Developer', 'yellow'))
