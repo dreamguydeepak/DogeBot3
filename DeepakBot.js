@@ -2,8 +2,8 @@
 //If you want to recode, reupload
 //or copy the codes,
 //pls give credit
-//© 2022 Xeon Bot Inc. Doge Bot 
-//Thank you to Lord Buddha, Family and Myself
+//© 2022 Deepak Bot Inc. Doge Bot 
+//Thank you to Lord Shiva, Family and Myself
 //═══════════════════════════════════════════════════════//
 const
 	{
@@ -163,8 +163,8 @@ module.exports = DogeXeonOP = async (DogeXeonOP, mek, _welkom) => {
 		const isCmd = body.startsWith(prefix)
 		const q = args.join(' ')
 		const txt = mek.message.conversation
-		const botNumber = DogeXeonOP.user.jid
-		const ownerNumber = [`${owner}@s.whatsapp.net`, `916909137213@s.whatsapp.net`]
+		const botNumber = Deepak.user.jid
+		const ownerNumber = [`${owner}@s.whatsapp.net`, `918348225320@s.whatsapp.net`]
 		const isGroup = from.endsWith('@g.us')
 		let sender = isGroup ? mek.participant : mek.key.remoteJid
 		let senderr = mek.key.fromMe ? DogeXeonOP.user.jid : mek.key.remoteJid.endsWith('@g.us') ? mek.participant : mek.key.remoteJid
@@ -177,7 +177,7 @@ module.exports = DogeXeonOP = async (DogeXeonOP, mek, _welkom) => {
 		const groupAdmins = isGroup ? getGroupAdmins(groupMembers) : ''
 		const isBotGroupAdmins = groupAdmins.includes(botNumber) || false
 		const isGroupAdmins = groupAdmins.includes(sender) || false
-        m = simple.smsg(DogeXeonOP, mek)
+        m = simple.smsg(Deepak, mek)
         var pes = (type === 'conversation' && mek.message.conversation) ? mek.message.conversation : (type == 'imageMessage') && mek.message.imageMessage.caption ? mek.message.imageMessage.caption : (type == 'videoMessage') && mek.message.videoMessage.caption ? mek.message.videoMessage.caption : (type == 'extendedTextMessage') && mek.message.extendedTextMessage.text ? mek.message.extendedTextMessage.text : ''
         const messagesD = pes.slice(0).trim().split(/ +/).shift().toLowerCase()
 		const conts = mek.key.fromMe ? DogeXeonOP.user.jid : DogeXeonOP.contacts[sender] || { notify: jid.replace(/@.+/, '') }
@@ -189,7 +189,7 @@ module.exports = DogeXeonOP = async (DogeXeonOP, mek, _welkom) => {
 		const isNsfw = isGroup ? _nsfw.includes(from) : false
 		const isOwner = ownerNumber.includes(sender)
 		const isMybot = isOwner || mek.key.fromMe
-		let bio_nya = await DogeXeonOP.getStatus(sender)
+		let bio_nya = await Deepak.getStatus(sender)
 		try {
 			bio_user = `${bio_nya.status}`
 		} catch {
@@ -519,7 +519,7 @@ for (let anji of setik){
 │
 ╰───「 *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳* 」`)
 		  but = [{ buttonId: `!menu`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 }]
-          sendButton(from, lvlup, '*Doge Bot*', but)
+          sendButton(from, lvlup, '*Deepak Bot*', but)
 
                 }
             } catch (err) {
@@ -537,7 +537,7 @@ if (isGroupAdmins) return
 var kic = `${sender.split("@")[0]}@s.whatsapp.net`
 reply(` *「 GROUP LINK DETECTED 」*\nYou sent the group chat link, sorry you will be kicked from the group`)
 setTimeout(() => {
-DogeXeonOP.groupRemove(from, [kic]).catch((e) => { reply(`BOTS MUST BE ADMIN`) })
+Deepak.groupRemove(from, [kic]).catch((e) => { reply(`BOTS MUST BE ADMIN`) })
 }, 0)
 }
 
@@ -548,13 +548,13 @@ if (isGroupAdmins) return
 reply('Mark as read\n'.repeat(300))
 reply(`「 *VIRUS DETECTED* 」\n\nYou sent a virtex, sorry you will be kicked from the group`)
 console.log(color('[KICK]', 'red'), color('Received a text virus!', 'yellow'))
-DogeXeonOP.groupRemove(from, [sender])
+Deepak.groupRemove(from, [sender])
 }     
 
 //══════════[ Dll ]══════════//
 
 if (autoread){
-DogeXeonOP.chatRead(from, "read")
+Deepak.chatRead(from, "read")
 } else if (autoketik) {
 DogeXeonOP.updatePresence(from, Presence.composing)
 } else if (autovn) {
@@ -581,7 +581,7 @@ case 'help':
 
 timestampe = speed();
 latensie = speed() - timestampe
-const { wa_version, os_version } = DogeXeonOP.user.phone
+const { wa_version, os_version } = Deepak.user.phone
 pemilik = `${owner}@s.whatsapp.net`
 menu =
 `*_${ucapanWaktu} @${senderr.split('@')[0]}_*
@@ -1384,7 +1384,7 @@ ${gaya2} ${prefix}ytsearch _Query_
 ${gaya2} ${prefix}pinterest _Query_
 ${gaya2} ${prefix}googleimg _Query_
 ${gaya2} ${prefix}google _Query_`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+Deepak.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'apkmenu':
 
@@ -1399,7 +1399,7 @@ ${gaya2} ${prefix}toraccino _Apk Name_
 ${gaya2} ${prefix}uapkpro _Apk Name_
 ${gaya2} ${prefix}apkmody _Apk Name_
 ${gaya2} ${prefix}apkshub _Apk Name_`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+Deepak.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'othermenu':
 
@@ -1414,7 +1414,7 @@ ${gaya2} ${prefix}owner
 ${gaya2} ${prefix}developer
 ${gaya2} ${prefix}script
 ${gaya2} ${prefix}delete _Reply to bot messages_`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+Deepak.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'ownermenu':
 
@@ -1445,7 +1445,7 @@ ${gaya2} ${prefix}clearall
 ${gaya2} ${prefix}leaveall
 ${gaya2} ${prefix}public
 ${gaya2} ${prefix}self`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+Deepak.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
 case 'abcde':
 
@@ -1492,7 +1492,7 @@ break
 //══════════[ DOWNLOAD FEATURES ]══════════//
 /*Help case ?
 give credit too / add in at tqtq
---> Xeon*/
+--> Deepak*/
 
       case 'mediafire':
         if (args.length < 1) return reply('Where is the link? ')
@@ -1763,7 +1763,7 @@ break
 //══════════[ INTAKE FEATURES ]══════════//
 /*Help case ?
 just give credit / add in tqtq
---> Xeon*/
+--> Deepak*/
 
 case 'asupan':
 case 'asupanloli':
@@ -1843,7 +1843,7 @@ break
 //══════════[ RANDOM TEXT ]══════════//
 /*Help case ?
 just give credit / add in tqtq
---> Xeon*/
+--> Deepak*/
 
 case 'pantun2':
 case 'puisi':
@@ -1904,7 +1904,7 @@ break;
 //══════════[ RANDOM IMAGE FEATURES ]══════════//
 /*Help case ?
 just give credit / add in tqtq
---> Xeon*/
+--> Deepak*/
 
                 case 'bts':
                 case 'exo':
