@@ -163,8 +163,8 @@ module.exports = DogeXeonOP = async (DogeXeonOP, mek, _welkom) => {
 		const isCmd = body.startsWith(prefix)
 		const q = args.join(' ')
 		const txt = mek.message.conversation
-		const botNumber = DogeXeonOP.user.jid
-		const ownerNumber = [`${owner}@s.whatsapp.net`, `916909137213@s.whatsapp.net`]
+		const botNumber = Deepak.user.jid
+		const ownerNumber = [`${owner}@s.whatsapp.net`, `918348225320@s.whatsapp.net`]
 		const isGroup = from.endsWith('@g.us')
 		let sender = isGroup ? mek.participant : mek.key.remoteJid
 		let senderr = mek.key.fromMe ? DogeXeonOP.user.jid : mek.key.remoteJid.endsWith('@g.us') ? mek.participant : mek.key.remoteJid
@@ -2161,7 +2161,7 @@ break
                  randIndex = Math.floor(Math.random() * jsonData.length);
                  randKey = jsonData[randIndex];
                  swordartonline = await getBuffer(randKey.result)
-                 DogeXeonOP.sendMessage(from, swordartonline, image, {quoted: mek, caption: 'swort art online\nDogeBot'})
+                 DogeXeonOP.sendMessage(from, swordartonline, image, {quoted: mek, caption: 'swort art online\nDeepakBot'})
 				 break
 				case 'hsdxd':
 				reply(mess.wait)
@@ -2187,7 +2187,7 @@ break
 //----> NSFW FEATURES <----//
 
 case 'hentaisearch': case 'nhentai':{
-	if (!isGroup) return reply('Bullshit! there is a child po*n\nIts better to just be in the group so that everyone will be sinned 😂')
+	if (!isGroup) return reply('Bullshit! there is a child po*n\nIts better to just be in the group so that everyone will be sinned 😂 Deepak The Pro')
 if (!isNsfw) return reply(mess.only.nsfw)
     if (args.length == 0) return reply(`Example: ${prefix + command} 344253`)
     henid = args[0]
@@ -2229,7 +2229,7 @@ case 'pussy':
 case 'thighs':
 case 'yuri':
 
-if (!isGroup) return reply('Bullshit! there is a child po*n\nIts better to just be in the group so that everyone will be sinned 😂')
+if (!isGroup) return reply('Bullshit! there is a child po*n\nIts better to just be in the group so that everyone will be sinned 😂' Deepak the pro)
 if (!isNsfw) return reply(mess.only.nsfw)
 anu23 = await fetchJson(`https://apidhani.herokuapp.com/api/nsfw/${command}?apikey=${dhakey}`)
 buffer = await getBuffer(anu23.result)
@@ -2250,7 +2250,7 @@ if (!isNsfw) return reply(mess.only.nsfw)
 reply(mess.wait)
 get_result = await getBuffer(`${porn1}/api/bokep?apikey=RakuKeyTod`)
 pll = `Here u go my friend! dont forget to masterbate, okay?😂`
-sendButVideo(from, pll, `*Doge Bot*`, get_result, [      
+sendButVideo(from, pll, `*Deepak Bot*`, get_result, [      
 {
 buttonId: `${prefix+command}`,
 buttonText: {
